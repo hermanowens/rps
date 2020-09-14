@@ -8,6 +8,18 @@ Creates a rock, paper, scissors game that allows a player to play 10 games again
 - Paper beats Rock
 - It's a draw, when both players choose the same formation.
 
+## Play Game
+Clone repository and enter the following commands (npm or yarn)
+```
+npm install
+npm run cli
+```
+or
+```
+yarn
+yarn cli
+```
+
 ## Goals:
 1. **Play game via CLI** (Primary game will be text-based via command line)
 1. **Play game via web browser** (Extends game to include a server-side rendered GUI)
@@ -18,7 +30,7 @@ Creates a rock, paper, scissors game that allows a player to play 10 games again
 - Express
 - Express Types
 - Jest
-- Prompt
+- ~~Prompt~~ Inquirer (some circular dependency bug -- so  found this one, which is pretty cool)
 - Pug
 - Sass Compiler
 - Typescript
