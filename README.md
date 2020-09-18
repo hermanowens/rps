@@ -1,6 +1,5 @@
 # Rock, Paper, Scissors (RPS)
-
-Creates a rock, paper, scissors game that allows a player to play 10 games against the CPU, before declaring a winner.
+Creates a rock, paper, scissors game that allows a player to play 10 rounds against the CPU, before declaring a winner.
 
 ## Rules:
 - Rock beats Scissors
@@ -9,16 +8,15 @@ Creates a rock, paper, scissors game that allows a player to play 10 games again
 - It's a draw, when both players choose the same formation.
 
 ## Play Game
-Clone repository and enter the following commands (npm or yarn)
-```
-npm install
-npm run cli
-```
-or
-```
-yarn
-yarn cli
-```
+*Note: Instructions include npm and yarn alternatives. It is not necessary to type in both commands. Please choose one based on your preference.*
+
+1. Clone repository
+1. Install dependencies using `npm i` or `yarn`
+1. Play Game:
+    - CLI (Text-Based): `npm run cli` or `yarn cli`
+    - GUI (Browser-Based): `npm run app` or `yarn app`
+1. Extend Game:
+    - View endpoints locally on port 3000
 
 ## Goals:
 1. **Play game via CLI** (Primary game will be text-based via command line)
@@ -30,11 +28,10 @@ yarn cli
 - Express
 - Express Types
 - Jest
-- ~~Prompt~~ Inquirer (some circular dependency bug -- so  found this one, which is pretty cool)
+- ~~Prompt~~ => Inquirer (swapped due to a circular dependency issue --- outdated Winston dependency included in prompts) [more info](https://github.com/flatiron/prompt/issues/199)
 - Pug
 - Sass Compiler
 - Typescript
-
 
 ### Optional
 - Cookie Parser

@@ -4,6 +4,7 @@
   "description": "Rock, Paper, Scissors game developed using NodeJS",
   "main": "index.js",
   "scripts": {
+    "app": "tsc && node ./build/app.js",
     "cli": "tsc && node ./build/cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
